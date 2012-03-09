@@ -1,0 +1,17 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  #hello: "Hello world"
+layouts:
+application:
+
+#Search:	"Search"
+#by: "by"
+#title: "title"
+#Title: "Title"
+#Authors: "Authors"
+#Add: "Add"
+#a: "a"
+#book: "book"
+

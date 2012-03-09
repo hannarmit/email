@@ -1,0 +1,7 @@
+<p><%= @registration.email %>,</p>
+
+<p>Thank you for registering!</p>
+
+<p><%= link_to "Edit profile", edit_user_url(@reservation) %></p>
+
+

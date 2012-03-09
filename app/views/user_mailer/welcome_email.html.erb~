@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    <h1>Welcome to Books.com, <%= @reservation.email %></h1>
+    <p>
+      You have successfully Reserv "<%= @reservation.book.title %>" Book,
+      
+    </p>
+    
+    <p>Thanks for Reserving and have a great day!</p>
+  </body>
+</html>

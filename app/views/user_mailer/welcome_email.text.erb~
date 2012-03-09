@@ -1,0 +1,5 @@
+Welcome to Books.com, <%= @reservation.email %>
+===============================================
+ 
+You have successfully Reserv <%= @reservation.book.title %> Book, 
+Thanks for joining and have a great day!

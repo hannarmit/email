@@ -1,0 +1,7 @@
+<%= @reservation.email %>,
+
+Your reservation conformed!
+
+Edit profile: <%= edit_user_url(@reservation) %>
+
+
