@@ -6,7 +6,9 @@ class Book < ActiveRecord::Base
   validates_with IsbnValidator
   
   has_many :reservations
-  
+  #make association with comments
+  has_many :comments, :dependent => :destroy
+
   def reservation
     self.reservations.where(state: 'reserved').first
   end

@@ -2,6 +2,7 @@ Library::Application.routes.draw do
   
 
   resources :books do
+    resources :comments
     collection do
       get :search
     end

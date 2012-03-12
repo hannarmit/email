@@ -15,7 +15,13 @@
 <p>
 	<%= @book.description %>
 </p>
+<h2>Comments</h2>
+<%= render @book.comments %>
 
+
+<h3>Add a comment:</h3>
+<%= render "comments/form" %>
+ 
 <%= link_to "Edit", edit_book_path(@book), class: 'btn' %>
 
 <span id="reservation-links">
